@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eu
+
 man_path="/usr/local/man/man1"
 
 cd "$(dirname "$0")"
